@@ -14,7 +14,7 @@
 Опция лицензии _{dv} Коннектор к AzureAD_.
 +
 ** С использованием учётной записи ЕСИА -- госуслуги
-include::platform:ROOT:partial$chunks.adoc[tags=esia-v]
+include::5.5.5@platform:ROOT:partial$chunks.adoc[tags=esia-v]
 .
 +
 Опция лицензии _{dv} Коннектор к ЕСИА_.

@@ -144,7 +144,7 @@ image::advanced-consolidation.png[Итоговая версия в задани�
 ****
 . На компьютере пользователя должны быть установлены:
 +
-* xref:5.5.17@webclient:ROOT:requirements-software.adoc#autoconsoliadtion[Microsoft Word].
+* Microsoft Word {word}.
 * Программа xref:prepare-add-components.adoc#dvWebTool[DVWebTool].
 +
 . Объединяемые файлы должны быть одного из допустимых форматов: `.docx`, `.docm`, `.doc`, `.rtf`, `.dotx`, `.dotm`, `.dot`, `.odt`.

@@ -5,7 +5,7 @@
 * Для работы с программой {kvr} лицензия на систему {dv} должна содержать дополнительную опцию: _{dv} 5. Конструктор карточек_.
 * Для работы с функцией агрегации потребуется дополнительная опция: _Docsvision Модуль Интеллектуальный поиск_. См. подробнее в разделе xref:admin:grid-aggregate.adoc[].
 * {blank}
-include::documentmgmt::requirements.adoc[tags=contracts]
+include::5.5.4@documentmgmt::requirements.adoc[tags=contracts]
 // tag::extensions[]
 * Для использования функции xref:user:prepare-authenticate.adoc[авторизации] с помощью OpenID требуется соответствующая опция лицензии. Например, _{dv} Коннектор к AzureAD_ и/или
 _{dv} Коннектор к ЕСИА_.
