@@ -1,5 +1,6 @@
 name: webclient
-version: "5.5.17"
+version: "5.5.17_attorney"
+display_version: "5.5.17_МЧД"
 title: Web-клиент
 asciidoc:
   attributes:
