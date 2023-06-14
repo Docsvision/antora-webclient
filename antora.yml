@@ -1,5 +1,6 @@
 name: webclient
 version: "5.5.17_attorney"
+prerelease: true
 display_version: "5.5.17_МЧД"
 title: Web-клиент
 asciidoc:
