@@ -22,7 +22,7 @@
 [#linux]
 == Установка на Linux
 
-include::6.1@platform:admin:partial$install.adoc[]
+include::dev@platform:admin:partial$install.adoc[]
 +
 Основные настройки, которые нужно сделать:
 +
@@ -56,13 +56,13 @@ include::6.1@platform:admin:partial$install.adoc[]
 <.> `DefaultDomain` -- домен по умолчанию в формате FQDN.
 <.> `ConnectionAddress` -- адрес сервера {dv}.
 <.> `Ldap` -- имя и пароль учётной записи, под которой процесс обращается к ActiveDirectory. +
-Пароль можно указывать в открытом или в зашифрованном виде, см. подробнее о шифровании в документации по установке системы, раздел "xref:6.1@install-linux::account-protection.adoc[]"
+Пароль можно указывать в открытом или в зашифрованном виде, см. подробнее о шифровании в документации по установке системы, раздел "xref:dev@install-linux::account-protection.adoc[]"
 +
 <.> `AuthType` -- тип аутентификации: `Basic` -- аутентификация через LDAP, `Oauth` -- аутентификация через ЕСИА или Azure.
 <.> `UserName` -- логин пользователя модуля для аутентификации LDAP.
 <.> `Password` -- пароль учётной записи пользователя для аутентификации LDAP.
 <.> `DataProtectCertificateThumbprint` -- отпечаток закрытого ключа шифрования SHA1. +
-Указывается без двоеточия, например, `D8602179888DC8402B393F11DCA16A3376DDF879`, см. подробнее в документации по установке системы, раздел "xref:6.1@install-linux::account-protection.adoc[]". +
+Указывается без двоеточия, например, `D8602179888DC8402B393F11DCA16A3376DDF879`, см. подробнее в документации по установке системы, раздел "xref:dev@install-linux::account-protection.adoc[]". +
 Если шифровать пароль системной учётной записи не планируется, параметр можно удалить.
 <.> `SystemUserAccount` -- имя системной учётной записи {dv} в формате UPN.
 <.> `SystemUserPassword` -- пароль системной учётной записи рекомендуется хранить в зашифрованном виде. Подробнее про шифрование см. в документации по установке системы, раздел "xref:install-linux::account-protection.adoc[]".
@@ -147,7 +147,7 @@ image::install-server-confirm.png[Установка Расширения]
 // image::install-restart-services.png[Диалог перезапуска сервисов {dv}]
 // +
 . Нажмите кнопку *Готово* для завершения работы мастера установки.
-. Обновите БД через {cns}, подробнее процесс описан в документации модуля {pl}, раздел "xref:6.1@platform:console:db-update.adoc[]".
+. Обновите БД через {cns}, подробнее процесс описан в документации модуля {pl}, раздел "xref:dev@platform:console:db-update.adoc[]".
 
 [#kvr-pu]
 === Установка программ {kvr} и Панель управления
@@ -174,12 +174,12 @@ image::install-server-confirm.png[Установка Расширения]
 . Если требуется, измените каталог установки.
 +
 .Каталог установки {wc}а
-image::6.1@webclient:admin:install-client-location.png[Каталог установки {wc}а]
+image::dev@webclient:admin:install-client-location.png[Каталог установки {wc}а]
 +
 . Выберите для установки все компоненты {wc}а.
 +
 .Устанавливаемые компоненты модуля {wc}
-image::6.1@webclient:admin:install-client-components.png[Устанавливаемые компоненты модуля {wc}]
+image::dev@webclient:admin:install-client-components.png[Устанавливаемые компоненты модуля {wc}]
 // image::install-client-components-layouts.png[Устанавливаемые компоненты модуля {wc}]
 // +
 // . Укажите адрес подключения к StorageServer в формате `\http://имя-сервера/DocsVision`) и псевдоним БД {dv}, затем нажмите *Далее*.
