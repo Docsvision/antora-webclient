@@ -1,7 +1,6 @@
 name: webclient
-version: "5.5.17_m4d"
-display_version: "5.5.17_МЧД"
-prerelease: true
+version: "5.5.17"
+display_version: "5.5.17"
 title: Web-клиент
 asciidoc:
   attributes:
