@@ -5,7 +5,7 @@
 . Настройте аутентификацию в Active Directory (требуется не для всех сервисов). Для работы Kerberos аутентификации в ActiveDirectory, необходимо получить keytab-файл.
 +
 --
-include::6.1@mgmtconsole:admin:provide-access.adoc[tags=keytab]
+include::dev@mgmtconsole:admin:provide-access.adoc[tags=keytab]
 --
 +
 . Перейдите по адресу {wc}а. Адрес необходимо вводить с доменным именем. При обращении по IP {wc} не запустится.
