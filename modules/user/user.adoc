@@ -49,6 +49,7 @@
 **** xref:cards-favorite.adoc[]
 **** xref:cards-management-console.adoc[]
 **** xref:cards-archive.adoc[]
+// **** xref:.cards-duplicate.adoc[]
 *** xref:docs.adoc[]
 **** xref:docs-new.adoc[]
 ***** xref:docs-fields-outgoing.adoc[]

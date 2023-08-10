@@ -1,0 +1,37 @@
+= Групповая операция / Дублировать карточки
+
+Элемент управления `_Групповая операция / Дублировать карточки_` вызывает операцию дублирования для группы выбранных карточек.
+
+ЭУ может быть добавлен в разметку локации _Групповые операции с карточками_ и в корневой элемент для ЭУ групповых операций (`_BatchOperationsNode_`).
+
+include::partial$excerpts.adoc[tags=batch]
+
+== Свойства
+
+include::partial$properties.adoc[tags=general]
+
+=== Внешний вид
+
+==== Текст кнопки
+
+Текст, отображаемый на кнопке дублирования.
+
+`*Локализуемый*`
+
+=== Поведение
+
+include::partial$properties.adoc[tags=visibility]
+
+include::partial$properties.adoc[tags=addCss]
+
+include::partial$properties.adoc[tags=stdCss]
+
+include::partial$properties.adoc[tags=folder-select-window]
+
+=== События
+
+include::partial$properties.adoc[tags=onClick]
+
+include::partial$properties.adoc[tags=mouseOver]
+
+include::partial$properties.adoc[tags=mouseAway]
