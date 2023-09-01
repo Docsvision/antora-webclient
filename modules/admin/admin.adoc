@@ -49,6 +49,7 @@
 **** xref:file-extensions.adoc[]
 **** xref:digital-sign-stamp.adoc[]
 **** xref:delete-method.adoc[]
+// **** xref:.duplicate-settings.adoc[]
 *** Настройки кэширования
 **** xref:caching-params.adoc[]
 **** xref:clear-cache-config.adoc[]
