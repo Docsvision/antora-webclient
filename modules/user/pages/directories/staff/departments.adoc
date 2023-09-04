@@ -61,7 +61,6 @@ include::partial$excerpts.adoc[tags=employeesWarning]
 // image::create-new-dept-main.png[Основная информация о подразделении]
 image::create-new-dept-main-index.png[Основная информация о подразделении]
 
-[horizontal]
 Название::
 В поле указывается сокращенное название, которое будет отображаться в справочнике {dv}.
 Полное название::
