@@ -21,7 +21,7 @@ include::partial$properties.adoc[tags=general]
 
 Количество отображаемых карточек. По умолчанию: 5.
 
-// include::partial$properties.adoc[tags=switch]
+include::partial$properties.adoc[tags=switch]
 
 ==== Колонка сортировки
 

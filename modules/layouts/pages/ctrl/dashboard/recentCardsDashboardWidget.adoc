@@ -17,7 +17,7 @@ include::partial$properties.adoc[tags=general]
 
 `*Локализуемый*`
 
-// include::partial$properties.adoc[tags=switch]
+include::partial$properties.adoc[tags=switch]
 
 === Поведение
 
