@@ -28,22 +28,31 @@ include::user:partial$excerpts.adoc[tags=signature]
 [#qualificated]
 == Использование квалифицированных сертификатов
 
+Для проверки и формирования электронной подписи необходимо установить компоненты криптопровайдера КриптоПро, указанные ниже.
+
 .Требования к серверу:
-. КриптоПро CSP версии {csp-v}.
-. https://www.cryptopro.ru/downloads[КриптоПро CADESCOM версия {cades}].
+// . КриптоПро CSP версии {csp-v}.
+// . https://www.cryptopro.ru/downloads[КриптоПро CADESCOM версия {cades}].
+. Лицензия КриптоПро CSP не требуется.
+. Установка компонентов КриптоПро TSP Client {tspcom-v} и лицензия на них не требуется.
+. Установка компонентов КриптоПро OCSP Client {ocspcom-v} и лицензия на них не требуется.
 . {root-cert} Сертификат должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
 
 .Требования к клиентским рабочим местам:
 . Операционная система: Windows или Mac OS (версии см. в требованиях https://www.cryptopro.ru/products/csp/compare[КриптоПро CSP].
 . Веб-браузер: Google Chrome, Яндекс.Браузер или Microsoft Edge на Chromium (поддерживаемые версии см. в пункте xref:requirements-software.adoc#browser[Необходимое программное обеспечение]).
 
-.Компоненты криптопровайдера КриптоПро:
-. КриптоПро CSP версии {csp-v}.
-. xref:user:prepare-add-components.adoc#cryptoPro[КриптоПро ЭЦП Browser plug-in] версии {sign-plugin}.
-. CryptoPro Extension for CAdES Browser Plug-in версии {chrome-ext} (https://chrome.google.com/webstore/detail/cryptopro-extension-for-c/iifchhfnnmpdbibifmljnfjhpififfog[ссылка для загрузки]).
-. КриптоПро TSPCOM версии {tspcom-v} -- компонент необходим для создания усиленной подписи Cades-X-Long-Type-1.
+[start=3]
+.Клиентские компоненты криптопровайдера КриптоПро:
+// . CryptoPro Extension for CAdES Browser Plug-in версии {chrome-ext} (https://chrome.google.com/webstore/detail/cryptopro-extension-for-c/iifchhfnnmpdbibifmljnfjhpififfog[ссылка для загрузки]).
+. xref:user:prepare-add-components.adoc#cryptoPro[КриптоПро ЭЦП Browser plug-in] версии {sign-plugin}.  Расширение бесплатное и не требует лицензии.
+. КриптоПро CSP версии {csp-v}. Потребуется лицензия для каждого пользователя.
+. Установка компонентов КриптоПро TSP Client {tspcom-v} и лицензия на них не требуется.
+. Установка компонентов КриптоПро OCSP Client {ocspcom-v} и лицензия на них не требуется.
+// . КриптоПро TSPCOM версии {tspcom-v} -- компонент необходим для создания усиленной подписи Cades-X-Long-Type-1.
 . См. также xref:5.5.5@backoffice::requirements.adoc#crypto-pro[требования для модуля "{bo}"].
 
+[start=8]
 .Сертификаты ЭП:
 . {root-cert} Должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
 . Квалифицированный сертификат пользователя. Должен быть установлен в хранилище _Личное_ на уровне _Текущий пользователь_.
