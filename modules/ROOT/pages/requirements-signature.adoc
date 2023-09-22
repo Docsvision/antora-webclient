@@ -25,7 +25,7 @@ include::user:partial$excerpts.adoc[tags=signature]
 По вопросам получения компонентов криптопровайдера КриптоПро следует обращаться в компанию ООО КРИПТО-ПРО.
 ****
 
-[#non-qualifcated]
+[#bes]
 == Формирование и проверка усиленной подписи (CAdES BES)
 
 .Требования к серверу:
@@ -36,20 +36,18 @@ include::user:partial$excerpts.adoc[tags=signature]
 . Веб-браузер: Google Chrome, Яндекс.Браузер или Microsoft Edge на Chromium (поддерживаемые версии см. в пункте xref:requirements-software.adoc[Необходимое программное обеспечение]).
 . КриптоПро ЭЦП Browser plug-in версии {sign-plugin} (https://www.cryptopro.ru/products/cades/plugin[ссылка для загрузки]).
 . CryptoPro Extension for CAdES Browser Plug-in версии {chrome-ext} (https://chrome.google.com/webstore/detail/cryptopro-extension-for-c/iifchhfnnmpdbibifmljnfjhpififfog[ссылка для загрузки]).
-. Требуется установить компоненты КриптоПро CSP {csp-v}, лицензия на компоненты не требуется.
 . Неквалифицированный сертификат пользователя. Сертификат должен быть установлен в хранилище _Личное_ на уровне _Текущий пользователь_.
 . Приложение КриптоПро https://www.cryptopro.ru/products/mydss2#law[myDSS 2.0] или https://www.cryptopro.ru/products/dss/mobile/dssclient[DSS Client] для работы с подписью xref:user:docs-sign.adoc#mobile[на мобильных устройствах]. Приложения обладают схожей функциональностью, рекомендуется использовать DSS Client как официальное приложение КриптоПро.
-. Не требуются компоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них.
+. Компоненты КриптоПро TSP Client, КриптоПро OCSP Client, КриптоПро CSP и лицензия на них не требуются.
 
-[#qualificated]
+[#long]
 == Формирование и проверка усовершенствованной подписи (CAdES-X Long Type 1)
 
 .Требования к серверу:
-. КриптоПро CSP версии {csp-v}.
 // . https://www.cryptopro.ru/downloads[КриптоПро CADESCOM версия {cades}].
 . Требуется установить Компоненты КриптоПро CSP {csp-v}, лицензия на компоненты не требуется.
 . {root-cert} Сертификат должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
-. Не требуются компоненты КриптоПро CSP, КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них.
+. Компоненты КриптоПро CSP, КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них не требуются.
 
 .Требования к клиентским рабочим местам:
 . Операционная система: Windows или Mac OS (версии см. в требованиях https://www.cryptopro.ru/products/csp/compare[КриптоПро CSP].
