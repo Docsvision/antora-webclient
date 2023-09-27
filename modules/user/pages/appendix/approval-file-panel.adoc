@@ -33,7 +33,9 @@ include::partial$excerpts.adoc[tags=openOnlyInIE]
 
 == Предварительный просмотр
 
-Щелкните по названию файла, чтобы открыть его в режиме предварительного просмотра. Инструкция по работе с компонентом предпросмотра приведена в пункте xref:appendix/file-preview.adoc[Предпросмотр файла].
+include::partial$excerpts.adoc[tags=click-preview]
+
+include::partial$excerpts.adoc[tags=cyr]
 
 == Скачивание версии
 

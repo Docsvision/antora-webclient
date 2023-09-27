@@ -74,6 +74,8 @@ include::partial$excerpts.adoc[tags=openOnlyInIE]
 
 Щелкните по названию файла, чтобы открыть его в режиме предварительного просмотра. Инструкция по работе с компонентом предпросмотра приведена в пункте xref:appendix/file-preview.adoc[Предпросмотр файла].
 
+include::partial$excerpts.adoc[tags=cyr]
+
 == Скачивание файла
 
 Чтобы скачать файл на устройство, нажмите image:buttons/vertical-dots.png[Три вертикальные точки] *> Скачать*.

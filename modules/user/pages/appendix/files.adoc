@@ -207,6 +207,8 @@ include::partial$excerpts.adoc[tags=openOnlyInIE]
 
 Нажмите на название файла, чтобы открыть его в режиме предварительного просмотра. Инструкция по работе с компонентом предпросмотра приведена в пункте xref:appendix/file-preview.adoc[Предпросмотр файла].
 
+include::partial$excerpts.adoc[tags=cyr]
+
 === Скачать файл
 
 Чтобы сохранить файл карточки на компьютер, нажмите image:buttons/vertical-dots.png[Три вертикальные точки] *> Скачать* в строке файла.
