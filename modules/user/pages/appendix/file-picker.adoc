@@ -38,7 +38,7 @@ image::file-picker-versioned.png[Файл с номером версии]
 * Типы файлов, которые можно добавлять:
 include::partial$extensions.adoc[tags=long]
 
-NOTE: Для возможности загрузки файлов .ascx, .cs и .java требуется xref:admin:install-after.adoc#java[дополнительная настройка].
+// NOTE: Для возможности загрузки файлов .ascx, .cs и .java требуется xref:admin:install-after.adoc#java[дополнительная настройка].
 
 include::partial$excerpts.adoc[tags=letters]
 
@@ -70,10 +70,7 @@ include::partial$excerpts.adoc[tags=openOnlyInIE]
 
 include::partial$excerpts.adoc[tags=click-preview]
 
-include::partial$excerpts.adoc[tags=cyr]
-
-
-Инструкция по работе с компонентом предпросмотра приведена в пункте xref:appendix/file-preview.adoc[Предпросмотр файла].
+// include::partial$excerpts.adoc[tags=cyr]
 
 == Скачивание файла
 
