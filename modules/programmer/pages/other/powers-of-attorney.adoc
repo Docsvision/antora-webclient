@@ -3,8 +3,8 @@
 Данный пример, расположенный в https://github.com/Docsvision/m4d-sample.git[репозитории {dv} на GitHub], содержит методы работы с МЧД для {wc}а и для {wincl}а.
 
 .Перечень необходимых инструментов:
-* Visual Studio 2017/2019
-* NodeJS v14.17.0+
+* Visual Studio {vscode-v}
+* NodeJS {node-v}
 
 [#description]
 == Описание примера
@@ -38,7 +38,7 @@
 [arabic]
 .. Скопируйте папку `SamplesOutput\Site\Content\Modules\PowersOfAttorneyWebExtension\` в  `Каталог-установки-{wc}а\Site\Content\Modules`.
 .. Скопируйте папку `SamplesOutput\Site\Extensions\PowersOfAttorneyServerExtension` в  `Каталог-установки-{wc}а\Site\Extensions`.
-. Перезапустите IIS.
+. Перезапустите {sss-new}.
 
 [#check]
 == Проверка примера

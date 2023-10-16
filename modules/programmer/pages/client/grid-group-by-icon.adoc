@@ -10,7 +10,7 @@ include::grid-context.adoc[tags=start]
 ----
 extensionManager.registerExtension({
     name: "HoverPanelGroping",
-    version: "5.5.17",
+    version: "6.1",
     initialize() {
         app.setService($HoverPanel, new CustomHoverPanelService()); <.>
     },

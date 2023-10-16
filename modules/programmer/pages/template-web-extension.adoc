@@ -21,8 +21,8 @@
 
 == Необходимое ПО
 
-* https://nodejs.org/en/[NodeJS v14.17.0+]
-* https://code.visualstudio.com/[VSCode] или любой другой редактор
+* https://nodejs.org/en/[NodeJS {node-v}]
+* https://code.visualstudio.com/[Visual Studio Code] {vscode-v} или любой другой редактор
 
 == Описание файла Index.ts
 
