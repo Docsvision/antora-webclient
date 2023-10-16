@@ -45,22 +45,22 @@ include::user:partial$excerpts.adoc[tags=signature]
 
 .Требования к серверу:
 // . https://www.cryptopro.ru/downloads[КриптоПро CADESCOM версия {cades}].
-. Требуется установить Компоненты КриптоПро CSP {csp-v}, лицензия на компоненты не требуется.
+. Требуется установить Компоненты КриптоПро CSP {csp-v} с соответствующей лицензией.
 . {root-cert} Сертификат должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
-. Компоненты КриптоПро CSP, КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них не требуются.
+. Компоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них не требуются.
 
 .Требования к клиентским рабочим местам:
-. Операционная система: Windows или Mac OS (версии см. в требованиях https://www.cryptopro.ru/products/csp/compare[КриптоПро CSP].
+. Операционная система: Windows или Mac OS (версии см. в требованиях https://www.cryptopro.ru/products/csp/compare[КриптоПро CSP]).
 . Веб-браузер: Google Chrome, Яндекс.Браузер или Microsoft Edge на Chromium (поддерживаемые версии см. в пункте xref:requirements-software.adoc#browser[Необходимое программное обеспечение]).
 . xref:user:prepare-add-components.adoc#cryptoPro[КриптоПро ЭЦП Browser plug-in] версии {sign-plugin}.
 . CryptoPro Extension for CAdES Browser Plug-in версии {chrome-ext} (https://chrome.google.com/webstore/detail/cryptopro-extension-for-c/iifchhfnnmpdbibifmljnfjhpififfog[ссылка для загрузки]).
 . КриптоПро CSP версии {csp-v}, потребуется лицензия для каждого пользователя.
-. Не требуются кмпоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них.
+. Не требуются компоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них.
 . {root-cert} Должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
 . Квалифицированный сертификат пользователя. Должен быть установлен в хранилище _Личное_ на уровне _Текущий пользователь_.
 +
 // tag::macOS[]
-NOTE: Здесь указано название хранилищ в ОС Windows. Шаги, необходимые для настройки КриптоПро в ОС Mac OS можно найти в https://support.cryptopro.ru/index.php?/Knowledgebase/Article/View/232/0/rbot-s-kriptopro-csp-v-macos[документации КриптоПро].
+NOTE: Здесь указано название хранилищ в ОС Windows. Шаги, необходимые для настройки КриптоПро в ОС Mac OS, можно найти в https://support.cryptopro.ru/index.php?/Knowledgebase/Article/View/232/0/rbot-s-kriptopro-csp-v-macos[документации КриптоПро].
 // end::macOS[]
 
 // .Компоненты криптопровайдера КриптоПро:
