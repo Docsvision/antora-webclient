@@ -29,6 +29,8 @@ image::authentication.png[Страница аутентификации]
 [#windows]
 == Вход с помощью учётной записи Windows
 
+include::5.5.5@platform:ROOT:partial$excerpts.adoc[tags=system-accounts]
+
 Вход с помощью учётной записи Windows считается основным способом аутентификации.
 
 .Чтобы войти в {wc} с помощью учётной записи Windows:
