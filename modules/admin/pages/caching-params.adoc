@@ -14,14 +14,10 @@
 +
 include::partial$table.adoc[]
 |*_AdvancedLayouts_*
-a|Отключает кэширование разметок.
-
-WARNING: Рекомендуется использовать актуальную настройку *_SharedDictionaryRefreshPeriod_*, см. подробнее в разделе "xref:directory-read-only.adoc[]".
+|Отключает кэширование разметок.
 
 |*_Folders_*
-a|Отключает кэширование настроек папок.
-
-WARNING: Рекомендуется использовать актуальную настройку *_SharedDictionaryRefreshPeriod_*, см. подробнее в разделе "xref:directory-read-only.adoc[]".
+|Отключает кэширование настроек папок.
 
 |*_SearchCard_*
 |Отключает кэширование сохранённых поисковых запросов.
