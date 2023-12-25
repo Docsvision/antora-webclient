@@ -341,7 +341,7 @@ CertificateSettings::
 [#api]
 == Изменения в API
 
-* xref:programmer:client/data-grid-control.adoc#api[Добавлены] новые методы и события API для контролов с табличным UI.
+* xref:programmer:server/data-grid-control.adoc#api[Добавлены] новые методы и события API для контролов с табличным UI.
 * Был xref:programmer:how-to-use-rest.adoc[добавлен REST Web-API], доступный на стороне клиента Web-клиента, который может вызывать функции {dv} API. REST API предназначается для работы из клиентских скриптов.
 * Внутренние компоненты `FileSignCreateDialog`, `FileSignSelectCertificateDialog` и связанные с ними заменены на `SignatureDialog`.
 * Сервис `$DocumentCardController` заменён на `$SignatureController`.
