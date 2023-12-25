@@ -2,7 +2,6 @@
 
 В данном разделе описан пример реализации групповой операции _Подписание документа_.
 
-[#description]
 == Описание файлов проекта
 
 . `copy-path.js` -- константы с именем расширения и параметрами сборки (в частности, путь, куда копировать файлы после сборки).
@@ -14,10 +13,11 @@
 . `node_modules` -- служебная папка NPM, которая появляется после выполнения команды `npm install`. Содержит npm-зависимости проекта, используемые в процессе сборки.
 . `src` -- исходные файлы расширения
 
-== Необходимое ПО
+Пример рассчитан на версию {wc}а {page-version} или выше.
 
+.Перечень необходимых инструментов:
 * https://nodejs.org/en/[NodeJS версии {node-v}].
-* https://code.visualstudio.com/[Visual Studio Code] {vscode-v} или любой другой редактор.
+include::ROOT:partial$excerpts.adoc[tags=vscode]
 
 == Начало работы
 
@@ -49,8 +49,8 @@ npm update
 npm run build:prod
 ----
 +
-. Скопируйте каталог `SamplesOutput\Site\Content\Modules\DocumentSignBatchOperationWebExtension` в каталог `Каталог-установки-{wc}а\Site\Content\Modules`.
-. Скопируйте файл расширения программы {kvr} из папки `DocumentSignBatchOperationDesignerExtension` в папку `~\Plugins` в каталоге {wc}а.
+. Скопируйте каталог `SamplesOutput\Content\Modules\DocumentSignBatchOperationWebExtension` в каталог `Каталог-установки-{wc}а\Content\Modules`.
+. Скопируйте файл расширения программы {kvr} из папки `DocumentSignBatchOperationDesignerExtension` в папку `Путь к директории с исполняемым файлом конструктора Web-разметок\Plugins` в каталоге {wc}а.
 . Перезапустите *{sss-new}*.
 
 == Проверка примера
@@ -100,7 +100,7 @@ npm run build:prod
 
 В процессе сборки используется `rollup и gulp`, однако можно использовать любую другую систему сборки (`webpack`, `parcel` и т.д.). Единственное требование -- необходимо использовать какую-либо систему `javascript` модулей, поддерживаемую `SystemJS` (`amd`, `commonjs`, `system`).
 
-NOTE: Обратите внимание, что файлы модулей устанавливаются в папку `Site/Content/Modules/<НазваниеРешения>`
+NOTE: Обратите внимание, что файлы модулей устанавливаются в папку `Content/Modules/<НазваниеРешения>`
 
 Для сборки расширения в режиме `production` необходимо запустить команду:
 
