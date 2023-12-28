@@ -102,8 +102,9 @@
 ***** xref:new-controls/override-style.adoc[]
 ***** xref:new-controls/redefine-standard-control.adoc[]
 *** Другие примеры
-// **** xref:other/.powers-of-attorney.adoc[]
+**** xref:other/powers-of-attorney.adoc[]
 **** xref:other/custom-stage-service.adoc[]
+**** xref:other/kedo.adoc
 *** xref:other/dv-web-extensions.adoc[]
 **** xref:other/external-web-service.adoc[]
 **** xref:other/kontur-integration.adoc[]
