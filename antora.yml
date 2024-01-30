@@ -1,6 +1,6 @@
 name: webclient
 version: "GBL-3255"
-display_version: "5.5.17"
+prerelease: true
 title: Web-клиент
 asciidoc:
   attributes:
