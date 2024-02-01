@@ -20,7 +20,6 @@
 **** xref:client/card-close-handler.adoc[]
 **** xref:client/save-card.adoc[]
 ***** xref:client/card-save-handler.adoc[]
-***** xref:client/saving-buttons-handler.adoc[]
 **** xref:client/script-cancel-event.adoc[]
 **** xref:client/script-get-service.adoc[]
 **** xref:client/agreement-history-redefine.adoc[]
