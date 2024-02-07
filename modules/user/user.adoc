@@ -1,4 +1,4 @@
-* Руководство пользователя модуля
+* Руководство пользователя
 ** xref:launch.adoc[]
 *** xref:prepare-authenticate.adoc[]
 *** xref:multi-tenant-mode.adoc[]
