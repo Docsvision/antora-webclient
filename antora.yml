@@ -1,6 +1,6 @@
 name: webclient
-version: "ERR-6573"
-prerelease: true
+version: "5.5.17"
+display_version: "5.5.17"
 title: Web-клиент
 asciidoc:
   attributes:
