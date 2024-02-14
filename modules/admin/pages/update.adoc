@@ -1,0 +1,18 @@
+:page-layout: home
+
+= Обновление {wc}а
+
+[tabs]
+====
+{wc}::
++
+.Обновление {wc}а
+****
+Информация об обновлении модуля и необходимых подготовительных этапах.
+
+* xref:update-module.adoc[]
+* xref:create-update-config.adoc[]
+* xref:cumulative-update.adoc[]
+* xref:update-client-code.adoc[]
+****
+====
