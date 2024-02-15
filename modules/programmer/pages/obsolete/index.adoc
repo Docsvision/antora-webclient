@@ -1,0 +1,18 @@
+:page-layout: home
+
+= Устаревшие примеры
+
+[tabs]
+====
+Руководство по разработке решений {wc}а::
++
+.Устаревшие примеры
+****
+Примеры этой категории устарели, приведённый код недействителен, поддержка прекращена.
+
+* xref:obsolete/hyper-comments.adoc[]
+* xref:obsolete/sample-office-work.adoc[]
+// * xref:other/dv-web-extensions.adoc[]
+* xref:obsolete/index.adoc[Больше примеров категории в навигационном меню слева...]
+****
+====

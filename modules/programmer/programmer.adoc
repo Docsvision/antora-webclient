@@ -111,7 +111,7 @@
 **** xref:other/kontur-integration.adoc[]
 *** xref:other/send-message-to-users.adoc[]
 *** xref:create-signature-stamp-generator.adoc[]
-*** Устаревшие примеры
+*** xref:obsolete/index.adoc[]
 **** xref:obsolete/hyper-comments.adoc[]
 **** xref:obsolete/sample-office-work.adoc[]
 ***** xref:obsolete/sample-office-work-descriptor.adoc[]
