@@ -10,7 +10,7 @@
 **** xref:no-active-dir.adoc[]
 *** xref:install-layout-designer.adoc[]
 
-** ref:update.adoc[]
+** xref:update.adoc[]
 *** xref:update-module.adoc[]
 *** xref:create-update-config.adoc[]
 *** xref:cumulative-update.adoc[]
