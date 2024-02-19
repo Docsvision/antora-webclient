@@ -1,5 +1,5 @@
 // tag::short[]
-Данная возможность доступна только для файлов Microsoft Office (соответствующие программы должны быть установлены): `.doc`, `.docx`, `.docm`, `.xls`, `.xlsx`, `.xlsm`, `.ppt`, `.pptx`, `.odt` и `.ods`.
+Данная возможность доступна только при установленном Microsoft Office для следующих файлов: `.doc`, `.docx`, `.docm`, `.xls`, `.xlsx`, `.xlsm`, `.ppt`, `.pptx`, `.odt` и `.ods`.
 // end::short[]
 
 // tag::long[]
