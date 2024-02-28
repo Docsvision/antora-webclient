@@ -69,7 +69,7 @@ include::partial$properties.adoc[tags=editOperationForVisibility]
 
 include::partial$properties.adoc[tags=byTab]
 
-==== Режим открытия ссылок
+==== Режим открытия
 
 Выбор способа открытия окна создания связанной карточки: *_Текущая вкладка_*, *_Новая вкладка_*, *_Новое окно браузера_*.
 
