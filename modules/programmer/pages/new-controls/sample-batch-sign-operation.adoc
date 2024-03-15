@@ -1,6 +1,11 @@
+:link: https://github.com/Docsvision/WebClient-Samples/tree/master/Controls/DocumentSignBatchOperation
+:name: DocumentSignBatchOperation
+
 = Групповая операция подписания
 
 В данном разделе описан пример реализации групповой операции _Подписание документа_.
+
+include::../client/authorization.adoc[tags=link]
 
 [#description]
 == Описание файлов проекта
@@ -14,11 +19,11 @@
 . `node_modules` -- служебная папка NPM, которая появляется после выполнения команды `npm install`. Содержит npm-зависимости проекта, используемые в процессе сборки.
 . `src` -- исходные файлы расширения
 
-[#software]
-== Необходимое ПО
+Пример рассчитан на версию {wc}а {page-version} или выше.
 
-* https://nodejs.org/en/[NodeJS версии v14.17.0].
-* https://code.visualstudio.com/[VSCode] или любой другой редактор.
+.Перечень необходимых инструментов:
+* https://nodejs.org/en/[NodeJS версии {node-v}].
+include::ROOT:partial$excerpts.adoc[tags=vscode]
 
 [#start]
 == Начало работы
@@ -28,8 +33,7 @@
 .Для этого:
 - Переименуйте саму папку `TemplateWebExtension` на `MyWebExtension`.
 - Откройте файл `copy-path.js` и замените значение `EXTENSION_NAME` на `MyWebExtension`.
-- Проверьте, что путь `SITE_ROOT` указывает на то место, куда должны копироваться файлы расширения после сборки. Может быть указан только относительный путь (относительно самого файла).
-// Можно указать путь к папке `Site` самого {wc}а, тогда дополнительно устанавливать расширение не потребуется.
+- Проверьте, что путь `SITE_ROOT` указывает на то место, куда должны копироваться файлы расширения после сборки. Может быть указан только относительный путь (относительно самого файла). Можно указать путь к папке `Site` самого {wc}а, тогда дополнительно устанавливать расширение не потребуется.
 +
 . Откройте командную строку в корне проекта, выполнить `npm install`. В результате появится папка `node_modules` со всеми необходимыми зависимостями.
 . В командной строке выполните `npm run build`.
@@ -53,8 +57,8 @@ npm update
 npm run build:prod
 ----
 +
-. Скопируйте каталог `SamplesOutput\Site\Content\Modules\DocumentSignBatchOperationWebExtension` в каталог `Каталог-установки-{wc}а\Site\Content\Modules`.
-. Скопируйте файл расширения программы {kvr} из папки `DocumentSignBatchOperationDesignerExtension` в папку `~\Plugins` в каталоге {wc}а.
+. Скопируйте каталог `SamplesOutput\Content\Modules\DocumentSignBatchOperationWebExtension` в каталог `Каталог-установки-{wc}а\Content\Modules`.
+. Скопируйте файл расширения программы {kvr} из папки `DocumentSignBatchOperationDesignerExtension` в папку `Путь к директории с исполняемым файлом конструктора Web-разметок\Plugins` в каталоге {wc}а.
 . Перезапустите *{sss-new}*.
 
 [#test]
