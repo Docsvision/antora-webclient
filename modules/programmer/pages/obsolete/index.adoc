@@ -8,11 +8,10 @@
 +
 .Устаревшие примеры
 ****
-Примеры этой категории устарели, приведённый код недействителен, поддержка прекращена.
+Данные примеры помечены как устаревшие и неактуальны.
 
 * xref:obsolete/hyper-comments.adoc[]
 * xref:obsolete/sample-office-work.adoc[]
-// * xref:other/dv-web-extensions.adoc[]
 * xref:obsolete/index.adoc[Больше примеров категории в навигационном меню слева...]
 ****
 ====

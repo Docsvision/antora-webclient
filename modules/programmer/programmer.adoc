@@ -110,7 +110,7 @@
 *** xref:other/dv-web-extensions.adoc[]
 **** xref:other/external-web-service.adoc[]
 **** xref:other/kontur-integration.adoc[]
-*** xref:other/send-message-to-users.adoc[]
+**** xref:other/send-message-to-users.adoc[]
 *** xref:create-signature-stamp-generator.adoc[]
 *** xref:obsolete/index.adoc[]
 **** xref:obsolete/hyper-comments.adoc[]
