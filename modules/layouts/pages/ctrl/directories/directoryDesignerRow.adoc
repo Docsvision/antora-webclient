@@ -147,6 +147,8 @@ include::partial$properties.adoc[tags=stdCss]
 
 === События
 
+include::partial$properties.adoc[tags=after-input-check]
+
 ==== Перед закрытием окна редактирования
 
 Вызывается перед закрытием окна редактирования в режиме редактирования *_По месту_*.

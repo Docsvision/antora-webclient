@@ -179,6 +179,8 @@ include::partial$properties.adoc[tags=stdCss]
 
 === События
 
+include::partial$properties.adoc[tags=after-input-check]
+
 ==== Перед выбором значения
 
 Вызывается перед выбором значения элемента управления.

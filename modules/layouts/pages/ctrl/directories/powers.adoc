@@ -37,6 +37,8 @@ include::partial$edit-modes.adoc[tags=noEdit]
 
 == Свойства
 
+include::partial$properties.adoc[tags=after-input-check]
+
 include::partial$properties.adoc[tags=general]
 
 === Внешний вид

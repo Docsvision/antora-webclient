@@ -149,6 +149,8 @@ include::partial$properties.adoc[tags=stdCss]
 
 === События
 
+include::partial$properties.adoc[tags=after-input-check]
+
 include::partial$properties.adoc[tags=mouseOver]
 
 include::partial$properties.adoc[tags=mouseAway]

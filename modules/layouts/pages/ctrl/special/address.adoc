@@ -20,6 +20,8 @@ include::partial$properties.adoc[tags=general]
 
 === Внешний вид
 
+include::partial$properties.adoc[tags=after-input-check]
+
 include::partial$properties.adoc[tags=filler]
 
 include::partial$properties.adoc[tags=displayLabelWithoutDefinition]

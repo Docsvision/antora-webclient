@@ -1,0 +1,37 @@
+= Настройка проверки заполнения
+
+Для полей карточки может выполняться проверка корректности заполнения, подробнее см. в разделе "xref:user:control-validation.adoc[]". При настройке разметок можно настроить собственную проверку по определённому правилу и выводить собственное сообщение об ошибке.
+
+Чтобы проверка выполнялась корректно, необходимо добавить для события `*После проверки ввода*` скрипт с реализованной собственной логикой проверки корректности заполнения поля и сообщением об ошибке:
+
+[source,typescript]
+----
+export async function validationNumber(sender: NumberControl, arg: CancelableEventArgs<IValidationResult>) { <.>
+    arg.accepted((data) => {
+        const controlValues = sender.params.value;
+        const number = 15;
+        if(controlValues > number) {
+            data.Passed = false
+            const message = data.Message ? data.Message : "";
+            data.Message = (message ? message : "") + `Число не должно быть больше ${number}.`
+        }
+    })
+}
+----
+<.> Выводить ошибку, если в поле введено число больше "15".
+
+.Добавление скрипта для события `*После проверки ввода*` доступно для следующих ЭУ:
+* "xref:ctrl/special/address.adoc[Адрес]"
+* "xref:ctrl/special/numerator.adoc[Нумератор]"
++
+NOTE: Проверка доступна только для ручного ввода.
++
+* "xref:ctrl/directories/partner.adoc[Партнер]"
+* "xref:ctrl/directories/partnersDepartment.adoc[Подразделение контрагента]"
+* "xref:ctrl/directories/staffDirectoryItems.adoc[Записи справочника сотрудников]"
+* "xref:ctrl/standard/dateTimePicker.adoc[Дата/время]"
+* "xref:ctrl/standard/number.adoc[Число]"
+* "xref:ctrl/standard/textBox.adoc[Строка]"
+* "xref:ctrl/directories/directoryDesignerRow.adoc[Строка конструктора справочников]"
+* "xref:ctrl/standard/textArea.adoc[Текст]"
+* "xref:ctrl/directories/powers.adoc[Полномочия]"

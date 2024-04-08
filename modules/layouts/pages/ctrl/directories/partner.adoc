@@ -113,6 +113,8 @@ include::partial$properties.adoc[tags=stdCss]
 
 === События
 
+include::partial$properties.adoc[tags=after-input-check]
+
 ==== Перед загрузкой результатов поиска
 
 Вызывается перед отправкой запроса на получение данных Справочника контрагентов с сервера.

@@ -40,6 +40,7 @@
 *** xref:cards-open-modes.adoc[]
 *** xref:cards-new.adoc[]
 **** xref:cards-from-template.adoc[]
+**** xref:control-validation.adoc[]
 *** xref:cards-refresh.adoc[]
 *** xref:cards-delete.adoc[]
 *** xref:cards-history.adoc[]

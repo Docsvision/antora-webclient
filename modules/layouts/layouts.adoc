@@ -46,6 +46,7 @@
 ***** xref:layouts-table.adoc[]
 ***** xref:layouts-tabs.adoc[]
 ***** xref:layouts-extended-data-source.adoc[]
+***** xref:layouts-validation.adoc[]
 
 *** xref:controls-properties-settings.adoc[]
 **** xref:controls-edit-modes.adoc[]

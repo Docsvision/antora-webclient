@@ -106,6 +106,8 @@ include::partial$properties.adoc[tags=stdCss]
 
 === События
 
+include::partial$properties.adoc[tags=after-input-check]
+
 ==== Перед началом генерации номера
 
 Вызывается перед получением номера, при нажатии кнопки image:buttons/number.png[Следующий номер].
