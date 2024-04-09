@@ -37,8 +37,6 @@ include::partial$edit-modes.adoc[tags=noEdit]
 
 == Свойства
 
-include::partial$properties.adoc[tags=after-input-check]
-
 include::partial$properties.adoc[tags=general]
 
 === Внешний вид
@@ -108,6 +106,8 @@ include::partial$properties.adoc[tags=byTab]
 include::partial$properties.adoc[tags=visibility]
 
 === События
+
+include::partial$properties.adoc[tags=after-input-check]
 
 ==== Перед выбором значения
 
