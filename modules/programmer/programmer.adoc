@@ -34,6 +34,7 @@
 **** xref:client/extend-server-query.adoc[]
 **** xref:client/signing-api.adoc[]
 **** xref:client/file-list-row.adoc[]
+**** xref:client/extend-folder-menu.adoc[]
 *** xref:server/server-extensions.adoc[]
 **** xref:server/template-server-extension.adoc[]
 **** xref:server/using-web-api.adoc[]
