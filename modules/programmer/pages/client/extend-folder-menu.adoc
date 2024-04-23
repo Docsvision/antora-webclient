@@ -1,0 +1,33 @@
+= Расширение меню папок
+
+{wc} предоставляет API для работы с пунктами меню папок, позволяя добавлять собственные пункты в контекстное меню папок.
+
+Воспользоваться API можно, например, следующим образом:
+
+[source,typescript]
+----
+function setCustomMenuItems(sender: Layout) {
+    sender.layout.params.services.folderMenuManagement.setCustomMenuItems(customFolderMenuItems);
+}
+
+const customFolderMenuItems = [
+    {
+        name: "A",
+        title: "A",
+        action: (folder: FolderMainMenuItem) => console.log(folder.params.folderInfo.id) <.>
+    },
+    {
+        name: "B",
+        title: "B",
+        action: (folder: FolderMainMenuItem) => console.log(folder.params.folderInfo.name) <.>
+    },
+    {
+        name: "C",
+        title: "C",
+        action: (folder: FolderMainMenuItem) => console.log(folder.params.folderInfo.defaultViewId) <.>
+    },
+]
+----
+<.> Получить идентификатор папки.
+<.> Получить имя папки.
+<.> Получить идентификатор представления по умолчанию.

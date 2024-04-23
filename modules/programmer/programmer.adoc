@@ -47,6 +47,7 @@
 ***** xref:client/grid-toolbar-button.adoc[]
 ***** xref:client/grid-line-background.adoc[]
 ***** xref:client/grid-column-background-rows.adoc[]
+**** xref:client/extend-folder-menu.adoc[]
 *** xref:server/server-extensions.adoc[]
 **** xref:server/template-server-extension.adoc[]
 **** xref:server/using-web-api.adoc[]
