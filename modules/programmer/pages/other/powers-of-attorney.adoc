@@ -2,9 +2,9 @@
 
 Данный пример, расположенный в https://github.com/Docsvision/m4d-sample.git[репозитории {dv} на GitHub], содержит методы работы с МЧД для {wc}а и для {wincl}а.
 
-.Перечень необходимых инструментов:
-* Visual Studio {vscode-v}
-* NodeJS {node-v}
+include::ROOT:partial$excerpts.adoc[tags=wc-node]
+* Модуль {bo} {bo-m4d-req}
+* Модуль {wc} {wc-m4d-req}
 
 [#limitations]
 == Ограничения примера
@@ -90,11 +90,11 @@
 +
 . Публикация компонентов на сервере Web-клиент.
 [arabic]
-.. Скопируйте папку `PowersOfAttorney\SamplesOutput\Content\Modules\PowersOfAttorneyWebExtension` в `Каталог-установки-{wc}а\Site\Content\Modules`.
-.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorneyServerExtension\PowersOfAttorneyServerExtension.dll` в `Каталог-установки-{wc}а\Site\Extensions`.
-.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorneyServerExtension\PowersOfAttorneyServerExtension.resources.dll` в `Каталог-установки-{wc}а\Site\Extensions\ru`.
-.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorney.UserCard.Common\PowersOfAttorney.UserCard.Common.dll` в `Каталог-установки-{wc}а\Site\Extensions`.
-.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorney.UserCard.Common\PowersOfAttorney.UserCard.Common.resources.dll` в `Каталог-установки-{wc}а\Site\Extensions\ru`.
+.. Скопируйте папку `PowersOfAttorney\SamplesOutput\Content\Modules\PowersOfAttorneyWebExtension` в `Каталог-установки-{wc}а\Content\Modules`.
+.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorneyServerExtension\PowersOfAttorneyServerExtension.dll` в `Каталог-установки-{wc}а\Extensions`.
+.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorneyServerExtension\PowersOfAttorneyServerExtension.resources.dll` в `Каталог-установки-{wc}а\Extensions\ru`.
+.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorney.UserCard.Common\PowersOfAttorney.UserCard.Common.dll` в `Каталог-установки-{wc}а\Extensions`.
+.. Скопируйте файл `PowersOfAttorney\SamplesOutput\Extensions\PowersOfAttorney.UserCard.Common\PowersOfAttorney.UserCard.Common.resources.dll` в `Каталог-установки-{wc}а\Extensions\ru`.
 . Перезапустите {sss-new}.
 
 [#check]
@@ -105,7 +105,7 @@
 Для проверки примера требуется установить версию Backoffice и {wc} с поддержкой СКД.
 ====
 
-. В Менеджере решений импортируйте решение _Машиночитаемая доверенность_ -- `PowersOfAttorney\Data\SolutionOfPOA.sol`. Рекомендуется использовать версию {of-sm} {sm-req} и выше.
+. В Менеджере решений импортируйте решение _Машиночитаемая доверенность_ -- `PowersOfAttorney\Data\SolutionOfPOA.sol`. Рекомендуется использовать версию {of-sm} {sm-req}
 +
 .Компоненты данного решения:
 * Справочник видов:
