@@ -14,10 +14,10 @@ NOTE: Для работы расширения требуется наличие
 . Откройте `/Samples.sln`
 . Соберите проект menu:ServerExtensions[ConverionSample > ConverionSampleServerExtension]
 . Откройте консоль в папке menu:ServerExtensions[ConverionSample > ConversionSampleWebExtension], выполните `npm install`, `npm update` и `npm run build:prod`
-. Скопируйте каталог `SamplesOutput\Site\Content\Modules\ConversionSampleWebExtension` в каталог `Путь-к-установленному-{wc}у\Site\Content\Modules`
-. Скопируйте каталог `SamplesOutput\Site\Extensions\ConverionSampleServerExtension` в каталог `Путь к установленному {wc}у\Site\Extensions`
-. Перезапустите IIS на сервере {dv} 5.
-. Перезапустите IIS на сервере {dv} 5 {wc}.
+. Скопируйте каталог `SamplesOutput\Content\Modules\ConversionSampleWebExtension` в каталог `Путь-к-установленному-{wc}у\Site\Content\Modules`
+. Скопируйте каталог `SamplesOutput\Extensions\ConverionSampleServerExtension` в каталог `Путь к установленному {wc}у\Extensions`
+. Перезапустите {sss-new}.
+. Перезапустите {wcs-new}.
 
 == Проверка примера
 
