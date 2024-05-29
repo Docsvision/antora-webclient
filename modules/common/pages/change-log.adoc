@@ -40,3 +40,9 @@
 // * xref:layouts:ctrl/directories/partner.adoc[]
 // * xref:layouts:ctrl/directories/partnersDepartment.adoc[]
 // * xref:layouts:ctrl/directories/staffDirectoryItems.adoc[]
+
+[#optimizations]
+== Оптимизации
+
+[#GBL-3415]
+Добавлено отслеживание ошибок и правил написания исходного кода, позволяющее предупредить возможные проблемы с работой модуля на стадии разработки.
