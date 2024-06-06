@@ -70,6 +70,7 @@
 **** xref:server/license-check.adoc[]
 **** xref:server/shift-tasks-end-date.adoc[]
 **** xref:server/table-control.adoc[]
+**** xref:server/table-render.adoc[]
 *** xref:layout-designer/layout-designer-extensions.adoc[]
 **** xref:layout-designer/create-publish.adoc[]
 **** xref:layout-designer/add-new-control.adoc[]
