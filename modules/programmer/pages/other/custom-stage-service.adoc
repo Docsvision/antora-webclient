@@ -1,6 +1,11 @@
+:link: https://github.com/Docsvision/WebClient-Samples/tree/master/Others/CustomStageService
+:name: CustomStageService
+
 = Специальный сервис логики этапа согласования
 
 Данный раздел содержит описание примера реализации специального сервиса логики этапа согласования.
+
+include::../client/authorization.adoc[tags=link]
 
 .Сервис выполняет следующие функции:
 * Подменяет вычисление согласующих.
@@ -43,12 +48,14 @@ namespace CustomStageService
 ----
 <.> Переопределяем вычисления согласующих для этапа.
 +
+.Параметры:
 * `approvalStage` -- текущий этап,
 * `document` -- документ.
 +
 <.> `CreateApprover` -- штатный метод `ApprovalStageService` создающий запись согласующего из сотрудника.
 <.> Дополняем создание задания согласования.
 +
+.Параметры:
 * `approvalStage` -- текущий этап.
 * `approvalPath` -- маршрут.
 * `reconcileCard` -- согласование.
