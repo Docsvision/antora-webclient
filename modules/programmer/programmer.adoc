@@ -106,6 +106,7 @@
 ***** xref:new-controls/override-style.adoc[]
 ***** xref:new-controls/redefine-standard-control.adoc[]
 *** xref:other/index.adoc[]
+**** xref:other/custom-stage-service.adoc[]
 **** xref:other/powers-of-attorney.adoc[]
 **** xref:other/custom-stage-service.adoc[]
 // **** xref:other/.kedo.adoc[]
