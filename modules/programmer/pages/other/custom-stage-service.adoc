@@ -1,4 +1,4 @@
-= {c-service}
+= {c-service} согласования
 
 Пример представляет демонстрационный вариант специального сервиса логики этапа согласования.
 
@@ -8,8 +8,10 @@
 * Visual Studio 2017/2019
 // * NodeJS v14.17.0+
 
-[source,typescript]
+[source,csharp]
 ----
+namespace CustomStageService
+{
 	public class CustomStageService : ApprovalStageService <.>
 	{
 		public override IEnumerable<ApprovalStageApprover> GetStageApprovers(ApprovalStage approvalStage, Document document) <.>
@@ -29,6 +31,7 @@
 			task.MainInfo.Content += Environment.NewLine + "Тест расширения"; <.>
 		}
 	}
+}
 ----
 <.> Пример переопределения сервиса этапа.
 <.> Переопределяем вычисления согласующих для этапа.
@@ -48,4 +51,4 @@
 +
 <.> Дополняем содержание задания.
 
-С полным кодом примера для Специального сервиса логики этапа можно ознакомиться в https://github.com/Docsvision/WebClient-Samples/tree/master_net45/Others/CustomStageService[репозитории примеров {wc}а] на GitHub.
+С полным кодом примера для Специального сервиса логики этапа согласования можно ознакомиться в https://github.com/Docsvision/WebClient-Samples/tree/master_net45/Others/CustomStageService[репозитории примеров {wc}а] на GitHub.
