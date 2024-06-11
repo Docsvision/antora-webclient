@@ -81,6 +81,7 @@
 *** xref:send-message-to-users.adoc[]
 *** xref:create-signature-stamp-generator.adoc[]
 *** xref:other/index.adoc[]
+**** xref:other/custom-stage-service.adoc[]
 **** xref:other/powers-of-attorney.adoc[]
 // **** xref:other/.kedo.adoc[]
 ** xref:more.adoc[]

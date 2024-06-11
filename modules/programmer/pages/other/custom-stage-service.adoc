@@ -1,0 +1,51 @@
+= {c-service}
+
+Пример представляет демонстрационный вариант специального сервиса логики этапа согласования.
+
+Сервис подменяет вычисление согласующих и на примере дополнения содержания задания показывает вариант настройки действий после создания задания.
+
+.Перечень необходимых инструментов:
+* Visual Studio 2017/2019
+// * NodeJS v14.17.0+
+
+[source,typescript]
+----
+	public class CustomStageService : ApprovalStageService <.>
+	{
+		public override IEnumerable<ApprovalStageApprover> GetStageApprovers(ApprovalStage approvalStage, Document document) <.>
+		{
+			List<ApprovalStageApprover> approvers = new List<ApprovalStageApprover>();
+
+			IStaffService staffService = Context.GetService<IStaffService>();
+			StaffEmployee employee = staffService.FindEmpoyeeByAccountName(@"Test\TestEmployee");
+
+			approvers.Add(CreateApprover(employee)); <.>
+
+			return approvers;
+		}
+
+		protected override void OnTaskCreated(ApprovalStage approvalStage, ApprovalPath approvalPath, Reconcile reconcileCard, Task task) <.>
+		{
+			task.MainInfo.Content += Environment.NewLine + "Тест расширения"; <.>
+		}
+	}
+----
+<.> Пример переопределения сервиса этапа.
+<.> Переопределяем вычисления согласующих для этапа.
++
+.Параметры:
+* `approvalStage` -- текущий этап
+* `document` -- документ
++
+<.> `CreateApprover` -- штатный метод ApprovalStageService создающий запись согласующего из сотрудника.
+<.> Дополняем создание задания согласования.
++
+.Параметры:
+* `approvalStage` -- текущий этап
+* `approvalPath` -- маршрут
+* `reconcileCard` -- согласование
+* `task` -- созданное задание
++
+<.> Дополняем содержание задания.
+
+С полным кодом примера для Специального сервиса логики этапа можно ознакомиться в https://github.com/Docsvision/WebClient-Samples/tree/master_net45/Others/CustomStageService[репозитории примеров {wc}а] на GitHub.
