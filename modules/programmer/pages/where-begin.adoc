@@ -29,7 +29,7 @@
 * _TemplateServerExtension_ -- шаблон проекта для разработки серверного расширения.
 
 .Чтобы установить шаблоны:
-. Скопируйте файлы `TemplateDesignerExtension.zip` и `TemplateServerExtension.zip` из каталога репозитория `ProjectTemplates\VSTemplates\` в каталог шаблонов проектов Visual Studio (`C:\Users\\%username%\Documents\Visual Studio %version%\Templates\ProjectTemplates\Visual C#\`) .
+. Скопируйте файлы `TemplateDesignerExtension.zip` и `TemplateServerExtension.zip` из каталога репозитория `ProjectTemplates\VSTemplates\` в каталог шаблонов проектов Visual Studio (`C:\Users\\%username%\Documents\Visual Studio %version%\Templates\ProjectTemplates\`) .
 . Запустите Visual Studio. Будут добавлены новые типы проектов: _TemplateDesignerExtension_ и _TemplateServerExtension_.
 
 == Что дальше
