@@ -31,6 +31,7 @@
 ***** xref:client/grid-group-by-icon.adoc[]
 ***** xref:client/grid-toolbar-button.adoc[]
 ***** xref:client/grid-line-background.adoc[]
+**** xref:client/edi-web-extension.adoc[]
 **** xref:client/extend-server-query.adoc[]
 **** xref:client/signing-api.adoc[]
 **** xref:client/file-list-row.adoc[]
