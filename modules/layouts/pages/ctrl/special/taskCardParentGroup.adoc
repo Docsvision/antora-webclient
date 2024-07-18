@@ -1,28 +1,30 @@
 = Родительская группа заданий
 
-Элемент управления `_Родительская группа заданий_` предназначен для отображения родительской группы заданий в подчиненном задании.
+Элемент управления `_Родительская группа заданий_` удалён, вместо него необходимо использовать ЭУ "xref:layouts:ctrl/standard/locationContainer.adoc[]", в т.ч. в ранее настроенных разметках. Техническая поддержка по ЭУ `_Родительская группа заданий_` не будет оказываться в текущей и последующих версиях.
 
-.Элемент управления "Родительская группа заданий"
-image::task-parent-group.png[Элемент управления "Родительская группа заданий"]
+// предназначен для отображения родительской группы заданий в подчиненном задании.
 
-ЭУ содержит название группы заданий и срок выполнения.
-
-== Свойства
-
-include::partial$properties.adoc[tags=general]
-
-=== Поведение
-
-include::partial$properties.adoc[tags=addCss]
-
-include::partial$properties.adoc[tags=editOperationForVisibility]
-
-include::partial$properties.adoc[tags=stdCss]
-
-=== События
-
-include::partial$properties.adoc[tags=mouseOver]
-
-include::partial$properties.adoc[tags=mouseAway]
-
-include::partial$properties.adoc[tags=onClick]
+// .Элемент управления "Родительская группа заданий"
+// image::task-parent-group.png[Элемент управления "Родительская группа заданий"]
+//
+// ЭУ содержит название группы заданий и срок выполнения.
+//
+// == Свойства
+//
+// include::partial$properties.adoc[tags=general]
+//
+// === Поведение
+//
+// include::partial$properties.adoc[tags=addCss]
+//
+// include::partial$properties.adoc[tags=editOperationForVisibility]
+//
+// include::partial$properties.adoc[tags=stdCss]
+//
+// === События
+//
+// include::partial$properties.adoc[tags=mouseOver]
+//
+// include::partial$properties.adoc[tags=mouseAway]
+//
+// include::partial$properties.adoc[tags=onClick]
