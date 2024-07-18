@@ -104,7 +104,7 @@
 **** xref:tasks-fields-fulfillment.adoc[]
 **** xref:tasks-fields-acquaintance.adoc[]
 *** xref:tasks-edit.adoc[]
-** xref:send-tasks.adoc[]
+*** xref:tasks-send.adoc[]
 **** xref:tasks-send-fulfillment.adoc[]
 **** xref:tasks-monitor.adoc[]
 **** xref:tasks-recall.adoc[]
