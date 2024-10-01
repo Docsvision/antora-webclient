@@ -66,15 +66,20 @@ include::partial$extensions.adoc[tags=short]
 ****
 До завершения редактирования файла не закрывайте карточку, из которой он был открыт.
 
-include::partial$excerpts.adoc[tags=openOnlyInIE]
+// include::partial$excerpts.adoc[tags=openOnlyInIE]
 ****
 
 [#preview]
 == Предварительный просмотр
 
-include::partial$excerpts.adoc[tags=click-preview]
+[WARNING]
+====
+include::admin:partial$excerpts.adoc[tags=preview]
+====
 
-// include::partial$excerpts.adoc[tags=cyr]
+Для открытия файла в режиме предпросмотра щелкните по названию файла и нажмите *Предварительный просмотр*.
+
+include::layouts:page$ctrl/special/filePreview.adoc[tags=previewFormats]
 
 Инструкция по работе с компонентом предпросмотра приведена в пункте xref:appendix/file-preview.adoc[Предпросмотр файла].
 
@@ -145,7 +150,7 @@ image::files-in-able.png[Таблица для работы с файлами]
 * Перетащите файлы из файловой системы в область элемента `_Таблица_`.
 * Нажмите кнопку image:buttons/add-file.png[Файл с плюсом внутри] и выберите файлы с помощью Проводника.
 
-Условия добавления файлов аналогичны, условиям добавления одиночного файла, приведенным <<conditions,выше>>.
+Условия добавления файлов аналогичны условиям добавления одиночного файла, приведенным <<conditions,выше>>.
 
 [#pull]
 == Скачивание всех файлов
