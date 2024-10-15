@@ -11,8 +11,8 @@
 Описание прочих примеров разработки.
 
 * xref:other/powers-of-attorney.adoc[]
-// * xref:new-controls/nested-controls.adoc[]
+* xref:other/custom-stage-service.adoc[]
 // * xref:new-controls/stop-cancellable-operation.adoc[]
-// * xref:new-controls/additional.adoc[Больше примеров категории в навигационном меню слева...]
+* xref:other/index.adoc[Больше примеров категории в навигационном меню слева...]
 ****
 ====
