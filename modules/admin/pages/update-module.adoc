@@ -1,4 +1,4 @@
-:update: webclient-*
+:update: webclient
 
 = Обновление {wc}а
 
