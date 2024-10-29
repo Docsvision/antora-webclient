@@ -55,7 +55,7 @@ include::user:partial$excerpts.adoc[tags=signature]
 . xref:user:prepare-add-components.adoc#cryptoPro[КриптоПро ЭЦП Browser plug-in] версии {sign-plugin}.
 . CryptoPro Extension for CAdES Browser Plug-in версии {chrome-ext} (https://chrome.google.com/webstore/detail/cryptopro-extension-for-c/iifchhfnnmpdbibifmljnfjhpififfog[ссылка для загрузки]).
 . КриптоПро CSP версии {csp-v}, потребуется лицензия для каждого пользователя.
-. Не требуются компоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них.
+. Компоненты КриптоПро TSP Client и КриптоПро OCSP Client и лицензия на них для каждого пользователя.
 . {root-cert} Должен быть установлен в хранилище _Доверенные корневые центры сертификации_ на уровне _Локальный компьютер_.
 . Квалифицированный сертификат пользователя. Должен быть установлен в хранилище _Личное_ на уровне _Текущий пользователь_.
 +
