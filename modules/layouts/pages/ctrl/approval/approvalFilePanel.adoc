@@ -18,9 +18,14 @@ include::partial$properties.adoc[tags=general]
 
 === Поведение
 
-include::partial$properties.adoc[tags=addCss]
+[#visibility]
+==== Видимость
 
-include::partial$properties.adoc[tags=visibility]
+Настройка видимости. Элемент управления отображается в карточке, когда флаг установлен. Элемент управления и любое его содержимое не отображаются, когда флаг снят.
+
+`*Адаптивный*`
+
+include::partial$properties.adoc[tags=addCss]
 
 ==== Загружать синхронно (шт)
 
