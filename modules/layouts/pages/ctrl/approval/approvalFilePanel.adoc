@@ -18,14 +18,7 @@ include::partial$properties.adoc[tags=general]
 
 === Поведение
 
-[#visibility]
-==== Видимость
-
-Настройка видимости. Элемент управления отображается в карточке, когда флаг установлен. Элемент управления и любое его содержимое не отображаются, когда флаг снят.
-
-`*Адаптивный*`
-
-ГАПКА ГАПКА
+include::partial$properties.adoc[tags=visibility]
 
 include::partial$properties.adoc[tags=addCss]
 
