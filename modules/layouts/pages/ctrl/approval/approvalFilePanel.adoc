@@ -18,15 +18,9 @@ include::partial$properties.adoc[tags=general]
 
 === Поведение
 
-include::partial$properties.adoc[tags=onClick]
-
-include::partial$properties.adoc[tags=visibility]
-
-include::partial$properties.adoc[tags=visibility]
-
-include::partial$properties.adoc[tags=visibility]
-
 include::partial$properties.adoc[tags=addCss]
+
+include::partial$properties.adoc[tags=visibility]
 
 ==== Загружать синхронно (шт)
 
