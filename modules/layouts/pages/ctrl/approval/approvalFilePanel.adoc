@@ -20,6 +20,8 @@ include::partial$properties.adoc[tags=general]
 
 include::partial$properties.adoc[tags=visibility]
 
+include::partial$properties.adoc[tags=visibility]
+
 include::partial$properties.adoc[tags=addCss]
 
 ==== Загружать синхронно (шт)
