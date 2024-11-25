@@ -25,6 +25,8 @@ include::partial$properties.adoc[tags=general]
 
 `*Адаптивный*`
 
+ГАПКА ГАПКА
+
 include::partial$properties.adoc[tags=addCss]
 
 ==== Загружать синхронно (шт)
