@@ -196,7 +196,6 @@
 ***** xref:appendix/partner-company.adoc[]
 ***** xref:appendix/partner.adoc[]
 ***** xref:appendix/directory-designer-row.adoc[]
-***** xref:appendix/directory-items-collection.adoc[]
 ***** xref:appendix/table.adoc[]
 ***** xref:appendix/comments.adoc[]
 ***** xref:appendix/task-tree.adoc[]
